@@ -1,6 +1,11 @@
-.App {
-  text-align: center;
+*{
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
 }
+/* .App {
+  text-align: center;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +40,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App{
+  margin-left: 20vw;
+  margin-top: 10vh;
+}
+
+.header{
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.input-div{
+  display: flex;
+  flex-flow: column;
+  
+}
+
+#num1-input{
+  width: 10rem;
+  padding:10px;
+  font-size: 1.5rem;
+  border: 2px solid white
+}
+
+#num2-input{
+  width: 10rem;
+  padding:10px;
+  font-size: 1.5rem;
+  border: 2px solid white
+}
+
+.btn-div{
+  display: flex;
+  width: 20vw;
+  justify-content: space-between;
+}
+
+.btn{
+  width: 40px;
+  height: 40px;
+  margin-top: 1rem;
+  background-color: white;
+  color: black  ;
+  text-align: center;
+  font-size: larger;
+  outline: none;
+}
+
+
+#message-div p {
+  color: red !important; 
+}
+
+#result-msg{
+  color: green;
 }
